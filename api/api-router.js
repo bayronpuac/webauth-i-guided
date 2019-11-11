@@ -14,7 +14,7 @@ router.get('/', (req, res) => {
 });
 
 router.post('/hash', (req, res ) => {
-  let hash = bcrypt.hashSync('myPassword', 10);
+  let hash = bcrypt.hashSync('myPasswords', 11);
 })
 
 module.exports = router;
